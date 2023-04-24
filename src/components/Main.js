@@ -4,7 +4,6 @@ import { ThemeContext } from '../contexts/ThemeContext';
 const Main = () => {
 	const { isDark } = useContext(ThemeContext);
 	const theme = isDark ? ' darkmode' : '';
-
 	return (
 		<div className={"main" + theme}>
               <h1>Titre de ma page</h1>

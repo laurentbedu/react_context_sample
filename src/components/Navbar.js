@@ -3,7 +3,6 @@ import { ThemeContext } from "../contexts/ThemeContext";
 
 const Navbar = () => {
   const { isDark, toggleTheme } = useContext(ThemeContext);
-//   const { isFrench, toogleLang} = useContext(LangContext);
   const theme = isDark ? " darkmode" : "";
   return (
     <div className={"navbar" + theme}>
